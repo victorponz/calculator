@@ -22,6 +22,7 @@ tasks.named('test') {
 	useJUnit()
 }
 apply plugin: "jacoco"
+apply plugin: 'checkstyle'
 jacocoTestCoverageVerification {
      violationRules {
           rule {
@@ -30,4 +31,13 @@ jacocoTestCoverageVerification {
                }
           }
      }
+}
+checkstyle {
+    configFile = file("${rootDir}/config/checkstyle/checkstyle.xml") 
+}
+checkstyleMain {
+    source ='src/main/java'
+}
+checkstyleTest {
+    source ='src/test/java'
 }

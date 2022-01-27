@@ -21,3 +21,13 @@ dependencies {
 tasks.named('test') {
 	useJUnit()
 }
+apply plugin: "jacoco"
+jacocoTestCoverageVerification {
+     violationRules {
+          rule {
+               limit {
+                    minimum = 1
+               }
+          }
+     }
+}

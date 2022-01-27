@@ -3,9 +3,6 @@
 <file name="/home/victor/Documentos/calculator/src/main/java/com/victor/calculator/Calculator.java">
 </file>
 <file name="/home/victor/Documentos/calculator/src/main/java/com/victor/calculator/CalculatorApplication.java">
-<error line="9" column="1" severity="error" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="10" column="1" severity="error" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="11" column="1" severity="error" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
 <file name="/home/victor/Documentos/calculator/src/main/java/com/victor/calculator/CalculatorController.java">
 </file>
